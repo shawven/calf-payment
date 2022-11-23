@@ -20,9 +20,9 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 @EnableWebSocket
 @EnableScheduling
 @SpringBootApplication
-public class Application {
+public class PayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(PayApplication.class, args);
 	}
 }
