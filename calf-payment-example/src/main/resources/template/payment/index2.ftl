@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh_CN">
-<#include '*/header.ftl'>
+<#include '*/../header.ftl'>
 <body>
 <div class="container-fluid">
     <h1 class="text-center">统一二维码</h1>
     <div id="qrcode"></div>
 </div>
-<#include '*/footer.ftl'>
+<#include '*/../footer.ftl'>
 <script>
     $.get("${baseUrl}/payment/qrcode", function (result) {
         getQrcode(result.data.qrcode)

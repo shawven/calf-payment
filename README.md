@@ -1,0 +1,2 @@
+## payment
+* Alipay, WeChatPay, UnionPay

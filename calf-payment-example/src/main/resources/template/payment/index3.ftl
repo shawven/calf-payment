@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh_CN">
-<#include '*/header.ftl'>
+<#include '*/../header.ftl'>
 <body>
 <div class="container-fluid">
     <h2 class="text-center  m-5">收银台</h2>
@@ -53,7 +53,7 @@
     <div class="alert-success text-center font-weight-bold ">
     </div>
 </div>
-<#include '*/footer.ftl'>
+<#include '*/../footer.ftl'>
 <script>
     var isPc = true;
 
